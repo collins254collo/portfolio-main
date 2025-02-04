@@ -19,7 +19,12 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <div className="py-10 dark:bg-gray-900">
-      <h2 className="text-3xl font-bold text-center mb-6">Testimonials</h2>
+      <h2 className="text-3xl font-bold text-center mb-6 text-blue-600">
+        References
+      </h2>
+      <h4 className="text-2xl font-medium text-center my-1.5 text-blue-400">
+        Meet the people who have being part of my Journey
+      </h4>
       <div className="flex flex-wrap justify-center gap-6">
         {testimonials.map((testimonial, index) => (
           <div

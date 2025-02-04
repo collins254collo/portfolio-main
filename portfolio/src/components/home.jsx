@@ -4,7 +4,7 @@ import portfolio from "../assets/port.jpg";
 
 const Home = () => {
   return (
-    <section className="min-h-screen flex flex-col-reverse md:flex-row justify-center items-center text-center px-6  bg-gray-900 dark:text-gray-100 transition-colors duration-300">
+    <section className="min-h-screen flex flex-col-reverse md:flex-row justify-center items-center text-center px-6 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300">
       {/* Left Content */}
       <motion.div
         initial={{ opacity: 0, y: 50 }}
@@ -13,7 +13,7 @@ const Home = () => {
         className="md:w-1/2 max-w-3xl"
       >
         <h1 className="text-3xl md:text-6xl font-bold my-6">
-          Hi, I'm{" "}
+          Hy, I'm{" "}
           <span className="text-indigo-600 dark:text-indigo-400">
             Collins Njogu
           </span>

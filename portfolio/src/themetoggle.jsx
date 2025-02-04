@@ -25,7 +25,7 @@ const ThemeToggle = () => {
       {theme === "dark" ? (
         <FaSun className="text-gray-300 text-xl" />
       ) : (
-        <FaMoon className="text-gray-100 text-xl" />
+        <FaMoon className="text-gray-900 text-xl" />
       )}
     </button>
   );
