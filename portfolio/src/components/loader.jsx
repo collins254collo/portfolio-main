@@ -36,8 +36,8 @@ const Loader = () => {
       {/* Bouncing Dots Loader */}
       <div className="relative z-10 flex space-x-2">
         <div className="w-4 h-4 bg-white rounded-full animate-bounce"></div>
-        <div className="w-4 h-4 bg-white rounded-full animate-bounce delay-150"></div>
-        <div className="w-4 h-4 bg-white rounded-full animate-bounce delay-300"></div>
+        <div className="w-4 h-4 bg-white rounded-full animate-bounce delay-500"></div>
+        <div className="w-4 h-4 bg-white rounded-full animate-bounce delay-700"></div>
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="dark:text-gray-100 shadow-md top-0 left-0 w-full z-50  sticky ">
+    <nav className="text-gray-900 shadow-md top-0 left-0 w-full z-50   ">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className="text-2xl font-bold text-indigo-500 cursor-pointer">
@@ -46,13 +46,14 @@ const Navbar = () => {
             <a
               href="#home"
               className="hover:text-indigo-400 dark:text-gray-100 dark:hover:text-indigo-300 transition block md:inline"
+              onClick={() => (window.location.href = "/")}
             >
               Home
             </a>
           </li>
           <li className="py-2 md:py-0 text-center md:text-left">
             <a
-              href="#projects"
+              href="/projects"
               className="hover:text-indigo-400 dark:text-gray-100 dark:hover:text-indigo-300 transition block md:inline"
             >
               Projects

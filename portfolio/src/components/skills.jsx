@@ -5,8 +5,10 @@ import {
   FaReact,
   FaNode,
   FaDatabase,
+  FaGitAlt,
+  FaGithub,
 } from "react-icons/fa";
-import { SiTailwindcss, SiExpress } from "react-icons/si";
+import { SiTailwindcss, SiExpress, SiPostgresql } from "react-icons/si";
 
 const skillsData = [
   {
@@ -49,14 +51,29 @@ const skillsData = [
     level: "Advanced",
     icon: <SiExpress className="text-gray-400" />,
   },
+  {
+    name: "PostgreSql",
+    level: "Advanced",
+    icon: <SiPostgresql className="text-gray-400" />,
+  },
+  {
+    name: "Git",
+    level: "Advanced",
+    icon: <FaGitAlt className="text-gray-400" />,
+  },
+  {
+    name: "Github",
+    level: "Advanced",
+    icon: <FaGithub className="text-gray-400" />,
+  },
 ];
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-16 bg-gray-200 text-white">
+    <section id="skills" className="py-16 bg-gray-900 text-white">
       <div className="container mx-auto px-6">
         <h2 className="text-4xl font-bold text-center text-indigo-400 mb-12">
-          My Skills
+          Tools and Skills
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
           {skillsData.map((skill, index) => (
