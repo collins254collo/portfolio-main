@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const express = require("express");
 const nodemon = require("nodemon");
 const nodemailer = require("nodemailer");
@@ -15,8 +17,8 @@ const transporter = nodemailer.createTransport({
   secure: false, // Use TLS (not SSL)
 
   auth: {
-    user: "njogucollins10397@gmail.com",
-    pass: "mjkz gufd tirf tmmp",
+    user: process.env.EMAIL,
+    pass: process.env.PASSWORD,
   },
 });
 

@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="text-gray-900 shadow-md top-0 left-0 w-full z-50   ">
+    <nav className="text-gray-900 shadow-md top-0 left-0 w-full z-50  bg-gray-900 ">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
         <div className="text-2xl font-bold text-indigo-500 cursor-pointer">
@@ -40,7 +40,7 @@ const Navbar = () => {
             isOpen ? "block" : "hidden"
           } md:flex md:flex-row md:gap-6 text-lg absolute md:static top-16 left-0 w-full md:w-auto bg-gray-900 sm:flex flex-col md:bg-transparent transition-transform duration-300 ease-in-out transform ${
             isOpen ? "translate-x-0" : "-translate-x-full"
-          } md:translate-x-0 md:opacity-100 md:items-center dark:bg-gray-800`}
+          } md:translate-x-0 md:opacity-100 md:items-center `}
         >
           <li className="py-2 md:py-0 text-center md:text-left">
             <a
